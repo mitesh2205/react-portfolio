@@ -1,0 +1,30 @@
+.container {
+    margin: 1.5rem 12rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 4rem;
+  }
+
+  /* media query for tablet view */
+
+    @media screen and (max-width: 1024px) {
+        .container {
+        margin: 1.5rem 8rem 0;
+        }
+    }
+
+    /* media query for mobile view */
+
+    @media screen and (max-width: 768px) {
+        .container {
+        margin: 1.5rem 4rem 0;
+        }
+    }
+
+    /* media query for mobile view */
+
+    @media screen and (max-width: 480px) {
+        .container {
+        margin: 1.5rem 2rem 0;
+        }
+    }

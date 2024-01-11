@@ -9,33 +9,25 @@ import { Disclosure, Transition } from "@headlessui/react";
 
 const JSIcon = require("../assets/icons/JSIcon.png");
 const TSIcon = require("../assets/icons/TSIcon.png");
+const AngularIcon = require("../assets/icons/AngularIcon.png");
+const PHPIcon = require("../assets/icons/PHPIcon.png");
 
 const MobileMenu = () => {
   const projects = [
     {
-      name: "First Project",
-      href: "#",
+      name: "Event Search",
+      href: "https://assignment-8-378900.wl.r.appspot.com/search",
       icon: <img
-      src={JSIcon}
-      alt="JS Icon"
+      src={AngularIcon}
+      alt="Angular Icon"
       className="w-7 mr-1  ml-5 text-yellow_vs"
     />,
       current: true,
     },
     {
-      name: "Second Project",
-      href: "#",
+      name: "MahavirTechnocast",
+      href: "https://mahavirtechnocast.com/",
       icon:  <img
-      src={TSIcon}
-      alt="TS Icon"
-      className="w-7 mr-1  ml-5 text-yellow_vs"
-    />,
-      current: false,
-    },
-    {
-      name: "Third Project",
-      href: "#",
-      icon: <img
       src={JSIcon}
       alt="JS Icon"
       className="w-7 mr-1  ml-5 text-yellow_vs"
@@ -43,11 +35,21 @@ const MobileMenu = () => {
       current: false,
     },
     {
-      name: "Fourth Project",
-      href: "#",
+      name: "College Website",
+      href: "http://www.aitindia.in/aitnew/",
       icon: <img
-      src={JSIcon}
-      alt="JS Icon"
+      src={PHPIcon}
+      alt="PHP Icon"
+      className="w-7 mr-1  ml-5 text-yellow_vs"
+    />,
+      current: false,
+    },
+    {
+      name: "College Web Admin",
+      href: "http://www.aitindia.in/aitnew/admin/login/finallogin1.php",
+      icon: <img
+      src={PHPIcon}
+      alt="PHP Icon"
       className="w-7 mr-1  ml-5 text-yellow_vs"
     />,
       current: false,

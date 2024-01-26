@@ -6,6 +6,7 @@ import ait from '../assets/ProjectImage/ait.png';
 import ait_admin from '../assets/ProjectImage/ait_admin.png';
 import flsak_ytd from '../assets/ProjectImage/flask_ytd.png';
 import custom_object_detector from '../assets/ProjectImage/object_detection.png';
+import embrill_web from '../assets/ProjectImage/embrill_web.png';
 const projects = [
     {
       id: 1,
@@ -67,6 +68,17 @@ const projects = [
     },
     {
         id: 6,
+        name: 'Embrill Website',
+        description:
+            'Developed a website for Embrill, a company based in Ahmedabad, India. This helps the company to showcase their services to the world.',
+        image: embrill_web,
+        tags: ['html', 'css', 'javascript', 'bootstrap', 'php', 'mysql'],
+        demo: 'https://embrill.com/',
+        source_code: ''
+        
+    },
+    {
+        id: 7,
         name: 'College Website',
         description:
             'Developed a website for my college, Ahmedabad Institute of Technology, Ahmedabad, India. fully dynamic website with admin panel.',
@@ -74,9 +86,10 @@ const projects = [
         tags: ['html', 'css', 'javascript', 'bootstrap', 'php', 'mysql'],
         source_code: '',
         demo: 'http://www.aitindia.in/aitnew/'
+        
     },
     {
-        id: 7,
+        id: 8,
         name: 'College Website Admin Panel',
         description:
             'Developed a admin panel for managing the website content with 4 different login roles for different users with different permissions.',
@@ -86,14 +99,14 @@ const projects = [
         source_code: ''
     },
     {
-        id: 8,
+        id: 9,
         name: 'Youtube Downloader',
         description:
             'Developed a youtube downloader using flask and youtube-dl. The user can download the youtube video in different formats and resolutions.',
         image: flsak_ytd,
         tags: ['python', 'flask', 'youtube-dl'],
-        demo: 'https://flask-ytd.herokuapp.com/',
-        source_code: '',
+        demo: '',
+        source_code: 'https://github.com/mitesh2205/flask-youtube-downloader',
         video: ''
     }
   ];

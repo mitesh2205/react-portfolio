@@ -61,6 +61,16 @@ const LeftBar = () => {
           <p>College Web Admin</p>
         </div>
       </a>
+      <a href="https://embrill.com/">
+        <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] ml-12 w-60">
+          <img
+            src={JSIcon}
+            alt="JS Icon"
+            className="w-7 mr-1  ml-5 text-yellow_vs"
+          />
+          <p>Embrill Website</p>
+        </div>
+      </a>
     </div>
   );
 

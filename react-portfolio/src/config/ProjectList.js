@@ -26,7 +26,7 @@ const projects = [
       description:
         'A platform that enables the user to manage the inventory of a store. The user can add, edit, and delete products from the inventory. The user can also view the inventory and search for products based on their name, category and generate invoices.',
       image: inventory_management,
-      tags: ['html', 'css', 'javascript', 'bootstrap', 'php', 'mysql'],
+      tags: ['html', 'css', 'javascript', 'bootstrap', 'React', 'Express', 'NodeJs', 'PostgreSql'],
       source_code: 'https://github.com/mitesh2205/inventory-cm',
       demo: '',
       video: 'https://drive.google.com/file/d/1uoqJfYsF8-2bAzup287qGJPmKMU-2JB5/view?usp=sharing',
